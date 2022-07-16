@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+.container-home_page{
+    display: flex;
+    flex-direction: row;
+    top: 150px;
+    position: fixed;
+    left: 240px;
+
+}
+.logos1{
+    margin-top: 80px;
+    width: 100px;
+}
+
+.textt{
+    
+    width: 40vw;
+    margin-right: 20px;
+    color: aliceblue;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.A1{
+    text-decoration: underline;
+    color: aquamarine;
+    
+}
+
+    .vl {
+        border-left: 3px solid rgb(221, 234, 221);
+        height: 400px;
+        padding-right: 30px;
+        
+      }
+.skilltext{
+    font-size: 20px;
+    color: cyan;
+}

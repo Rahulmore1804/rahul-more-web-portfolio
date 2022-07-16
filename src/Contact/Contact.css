@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    top: 150px;
+    position: fixed;
+    left: 240px;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: aquamarine;
+    width: 70vh;
+
+
+}
+
+.contact_form textarea {
+    background-color: transparent;
+    color: antiquewhite;
+    height: 60px;
+    width: 400px;
+   
+}
+.contact_form input {
+    background-color: transparent;
+    color: antiquewhite;
+    height: 30px;
+    width: 400px;
+    
+   
+}
+.contact_form ul {
+    background-color: transparent;
+   
+
+}
+.contact_form  button{
+    background-color: gray;
+    color: azure;
+    border: 1px;
+    margin-top: 5px;
+width: 75px;
+height: 30px;
+   
+   
+
+}
+.contact_form  button :hover{
+    background-color: rgb(36, 29, 29);
+    color: rgb(94, 182, 182);
+    border: 1px;
+    margin-top: 5px;
+width: 85px;
+height: 40px;
+transition: 500ms;
+   
+   
+
+}
+

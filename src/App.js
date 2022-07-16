@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect}  from "react"
+import {BrowserRouter,Route,Routes} from "react-router-dom"
 
+import './App.css';
+import Navbar from "./Navbar/Navbar";
+import Contact from "./Contact/Contact"
+import Skills from "./Skills/Skills"
+import Home from "./Home/Home"
+import About from "./About/About"
+import Work from "./Work/Work"
+import bc from "./bc1.jpg"
 function App() {
+  useEffect(() => {
+    document.title = "Rahul More";
+  }, []);
+ 
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <div className="whole"><div className="bc"><img className="immage" src={bc} alt="back"/></div><div className="nav"><Navbar/></div></div>
+      
+      <Routes>
+        <Route exact path="/" element ={<Home/>}/>
+        <Route exact path="/skills" element ={<Skills/>}/>
+        <Route exact path="/contact" element ={<Contact/>}/>
+        <Route exact path="/work" element ={<Work/>}/>
+        <Route  exact path="/about" element ={<About/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
