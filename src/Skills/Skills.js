@@ -11,9 +11,9 @@ import "./Skills.css"
 
 function Skills(){
     return(<div className="container-home_page">
-    <div className="textt"><h1>Skills</h1><p>I have knowledge of Full stack technologies. like <span className="skilltext"> React js, Node js, Python, JavaScript, HTML/CSS, mongoDB and MySQL</span></p>
+    <div className="textt"><h1>Skills</h1><div className="SS"><p>I have knowledge of Full stack technologies. like <span className="skilltext"> React js, Node js, Python, JavaScript, HTML/CSS, mongoDB and MySQL</span></p>
     
-    <p>You can see my work, profile and Code on <a className="A1" href="https://www.linkedin.com/in/rahulmore1804/">Linkdin</a> and <a className="A1"  href="https://github.com/Rahulmore1804">GitHub</a>. </p></div>
+    <p>You can see my work, profile and Code on <a className="A1" href="https://www.linkedin.com/in/rahulmore1804/">Linkdin</a> and <a className="A1"  href="https://github.com/Rahulmore1804">GitHub</a>. </p></div></div>
     
 
 <div className="vl"></div>

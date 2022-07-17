@@ -15,6 +15,17 @@
 }
 .about{
     width:35vw ;
+	background-color: rgba(25, 23, 23, 0.1);
+    
+    padding: 10px;
+    border-radius: 7px;
+}
+.about:hover{
+    width:35vw ;
+	background-color: rgba(25, 23, 23, 0.2);
+    
+    padding: 10px;
+    border-radius: 7px;
 }
 .cube1{
     margin-left: 280px;
@@ -25,6 +36,15 @@
     height: 40px;
     background-color: rgb(24, 24, 24);
     color: rgb(197, 178, 178);
+}
+.btn:hover{
+	background-color: rgb(225, 211, 211);
+    color: rgb(24, 29, 29);
+    border: 1px;
+    
+
+transition: 500ms;
+    
 }
 
 /* CSS for general styling */

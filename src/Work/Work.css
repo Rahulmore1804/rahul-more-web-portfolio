@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
 .container-home_page{
     display: flex;
@@ -5,19 +6,20 @@
     top: 150px;
     position: fixed;
     left: 240px;
+    font-family: 'Ibarra Real Nova', serif;
     
 }
 .image_box {
     border-radius: 10px;
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     overflow: hidden;
     padding-bottom: 0px;
     position: relative;
 }
 .content {
     background: linear-gradient(180deg,rgba(0, 0, 0, 0.3),#000);
-    bottom: 00px;
+    bottom: -70px;
     color: #fff;
     padding: 9px 37px;;
     position: absolute;
@@ -31,28 +33,29 @@
     width: 100%;
     z-index: 2;
 }
-/* .image_box :hover+
+.image_box:hover
     .content {
         background: linear-gradient(180deg,rgba(0,0,0,.5),#000);
-        bottom: 0px;
+        bottom: 00px;
         color: #fff;
         padding: 10px 30px;
         position: absolute;
         transition: cubic-bezier(.165,.84,.44,1);
         width: 100%;
         z-index: 3;
-    } */
-/* .content :hover{
+        transition: 400ms;
+    } 
+ .content:hover{
    
         background: linear-gradient(180deg,rgba(0,0,0,.5),#000);
-        bottom: -40px;
+        bottom: 00px;
         color: #fff;
         padding: 10px 30px;
         position: absolute;
         transition: cubic-bezier(.165,.84,.44,1);
         width: 100%;
         z-index: 3;
-    } */
+    }
 
 
 .title1{
@@ -63,6 +66,7 @@
         position: fixed;
         left: 240px;
         color: rgb(13, 18, 18);
+        font-family: 'Ibarra Real Nova', serif;
     }
 
 

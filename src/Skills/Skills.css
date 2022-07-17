@@ -19,12 +19,26 @@
     
     width: 40vw;
     margin-right: 20px;
-    color: aliceblue;
+    color: rgb(14, 16, 19);
     font-family: 'Ibarra Real Nova', serif;
+    font-size: 25px;
+    
+}
+.SS{
+    background-color: rgba(25, 23, 23, 0.2);
+    
+    padding: 10px;
+    border-radius: 7px;
+}
+.SS:hover{
+    background-color: rgba(25, 23, 23, 0.3);
+    
+    padding: 10px;
+    border-radius: 7px;
 }
 .A1{
     text-decoration: underline;
-    color: rgb(164, 196, 185);
+    color: rgb(174, 197, 191);
     
 }
 
@@ -35,6 +49,7 @@
         
       }
 .skilltext{
-    font-size: 20px;
-    color: cyan;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(214, 220, 220);
 }

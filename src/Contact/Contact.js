@@ -8,7 +8,7 @@ function Contact() {
         Want to connect? My inbox is always open! Don't hesitate to contact me
         using below form either.
       </p>
-      <form action="https://formspree.io/f/xrgjnzrw" method="POST">
+      <form className="A12" action="https://formspree.io/f/xrgjnzrw" method="POST">
         <label className="b2">
           Your Name  :
           <input type="string" name="name" required />

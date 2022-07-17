@@ -28,7 +28,7 @@ function Work() {
           alt="portfolio"
         />
         <div className="content">
-          <p className="title">News Latter Signuo</p>
+          <p className="title">News Latter Signup</p>
           <h4 className="description">Node js, HTML, CSS</h4>
           <a href="https://dry-dusk-36900.herokuapp.com/"><button  className="btn">View</button></a>
         </div>

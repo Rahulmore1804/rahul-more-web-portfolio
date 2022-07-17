@@ -1,4 +1,7 @@
-
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  
+}
 
 .whole {
   position: relative;
@@ -10,6 +13,7 @@
   max-height: 100%;
   margin: 0;
   padding: 0;
+ 
 }
 .nav {
   position: absolute;

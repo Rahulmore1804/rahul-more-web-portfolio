@@ -20,10 +20,12 @@
 .b2
 {
     font-size: 27px;
+    
 }
 .b3
 {
     font-size: 33px;
+  
 }
 
 .contact_form textarea {
@@ -46,6 +48,9 @@
 .contact_form ul {
     background-color: transparent;
     
+    
+
+    
    
 
 }
@@ -62,15 +67,28 @@ border: none;
    
 
 }
-.contact_form  button :hover{
-    background-color: rgb(36, 29, 29);
-    color: rgb(94, 182, 182);
+.A12{
+    background-color: rgba(25, 23, 23, 0.2);
+    width: 600px;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.A12:hover{
+    background-color: rgba(25, 23, 23, 0.4);
+    width: 600px;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.contact_form  button:hover{
+    background-color: rgb(225, 211, 211);
+    color: rgb(24, 29, 29);
     border: 1px;
-    margin-top: 5px;
-width: 85px;
-height: 40px;
+    
+
 transition: 500ms;
-   
+    
    
 
 }

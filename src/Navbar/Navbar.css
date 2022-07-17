@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
 .nav_bar {
     display: flex;
@@ -14,11 +15,12 @@
 .UU {
   text-decoration: none;
   background-color: rgb(21, 19, 19);
+
 }
 .VV {
   text-decoration: none;
   background-color: rgb(21, 19, 19);
-  padding: 3px;
+  padding: 2px;
   
 }
 .WW{
@@ -38,15 +40,22 @@ ul {
   li a {
     display: block;
     color: rgb(243, 243, 243);
-    padding: 8px 16px;
+    padding: 8px 12px;
     text-decoration: none;
     background-color: rgb(21, 19, 19);
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
   }
   
   /* Change the link color on hover */
   li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: rgb(225, 211, 211);
+    color: rgb(24, 29, 29);
+    border-radius: 7px;
+    
+
+transition: 500ms;
+    
   }
   .logo{
 width: 60px;
