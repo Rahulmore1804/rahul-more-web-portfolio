@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
 
 
@@ -9,11 +10,20 @@
     top: 150px;
     position: fixed;
     left: 240px;
-    font-family: 'Edu TAS Beginner', cursive;
-    color: aquamarine;
-    width: 70vh;
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(1, 1, 1);
+    width: 66vw;
 
 
+
+}
+.b2
+{
+    font-size: 27px;
+}
+.b3
+{
+    font-size: 33px;
 }
 
 .contact_form textarea {
@@ -21,6 +31,7 @@
     color: antiquewhite;
     height: 60px;
     width: 400px;
+    border-width: 0 0 2px;
    
 }
 .contact_form input {
@@ -28,21 +39,25 @@
     color: antiquewhite;
     height: 30px;
     width: 400px;
+    border-width: 0 0 2px;
     
    
 }
 .contact_form ul {
     background-color: transparent;
+    
    
 
 }
 .contact_form  button{
-    background-color: gray;
+    background-color: rgb(44, 40, 40);
     color: azure;
     border: 1px;
+    border-radius: 15px;
     margin-top: 5px;
 width: 75px;
 height: 30px;
+border: none;
    
    
 

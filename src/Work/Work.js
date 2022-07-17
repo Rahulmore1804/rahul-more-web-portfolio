@@ -5,7 +5,7 @@ import news from "./newslatter.png"
 
 function Work() {
  
-  return (<div className="title1"><h1>Work & Experience</h1>
+  return (<div className="title1"><h1>Work & Projects</h1>
     <div className="container-home_page">
       
       <div className="image_box">

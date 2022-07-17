@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
 .container-home_page11{
     display: flex;
@@ -8,6 +8,15 @@
     top: 150px;
     position: fixed;
     left: 240px;
-    font-family: 'Edu TAS Beginner', cursive;
-    color: azure;
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(20, 23, 23);
+}
+
+.btn111{
+    text-decoration: none;
+    background-color: black;
+    color: antiquewhite;
+    width: 139px;
+    height: 40px;
+    
 }

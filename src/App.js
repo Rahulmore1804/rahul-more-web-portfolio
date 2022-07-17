@@ -8,7 +8,7 @@ import Skills from "./Skills/Skills"
 import Home from "./Home/Home"
 import About from "./About/About"
 import Work from "./Work/Work"
-import bc from "./bc1.jpg"
+import bc from "./bc11.jpg"
 function App() {
   useEffect(() => {
     document.title = "Rahul More";
