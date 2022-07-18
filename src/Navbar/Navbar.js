@@ -17,10 +17,10 @@ function Navbar() {
 
 <br/><br/><br/>
       <Link className="UU" to="/"> Home </Link></li><li>
-      <Link className="UU" to= "/contact"> Contact </Link></li><li>
+      <Link  className="UU" to ="/about"> About </Link></li><li>
       <Link className="UU" to = "/skills"> Skills </Link></li><li>
       <Link className="UU" to ="/work"> Work </Link></li><li>
-      <Link  className="UU" to ="/about"> About </Link></li><li>
+      <Link className="UU" to= "/contact"> Contact </Link></li><li>
       <br/><br/><br/><br/>
       <a className="VV" href="https://www.linkedin.com/in/rahulmore1804/"><img className="WW" src={linkdin} alt="linkdin"/></a></li><li>
       <a className="VV" href="mailto:rahulmore1804@gmail.com"><img className="WW" src={gmail} alt="gmail"/></a></li><li>

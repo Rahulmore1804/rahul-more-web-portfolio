@@ -36,6 +36,7 @@
     height: 40px;
     background-color: rgb(24, 24, 24);
     color: rgb(197, 178, 178);
+	border-radius: 5px;
 }
 .btn:hover{
 	background-color: rgb(225, 211, 211);

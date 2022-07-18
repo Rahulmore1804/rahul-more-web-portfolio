@@ -27,7 +27,7 @@ function About() {
         <a href={pp}>
           <button className="btn">Resume</button>
         </a>
-      </div>{" "}
+      </div>
       <div className="cube1">
         <div class="cube">
           <div class="box box1">
@@ -54,7 +54,7 @@ function About() {
             <img className="img11"  src={gg} alt="iage 6" />
           </div>
         </div>
-      </div>{" "}
+      </div>
     </div>
   );
 }
