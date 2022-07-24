@@ -3,6 +3,7 @@ import "./Work.css";
 import game from "./game.png";
 import news from "./newslatter.png";
 import web from "./web.png";
+import ima from "./image.png";
 
 function Work() {
   return (
@@ -20,7 +21,19 @@ function Work() {
             </a>
           </div>
         </div> <div className="abba">
-          <p className="abba">.-------- .</p>
+          
+        </div>
+        <div className="image_box">
+          <img src={ima} className="work_image" alt="portfolio" />
+          <div className="content">
+            <p className="title">MERN Image uploading</p>
+            <h4 className="description">React js,Node js,Mongodb</h4>
+            <a href="https://rahul-more.herokuapp.com/">
+              <button className="btn">View</button>
+            </a>
+          </div>
+        </div> <div className="abba">
+          
         </div>
         <div className="image_box">
           <img src={game} className="work_image" alt="portfolio" />
@@ -34,7 +47,7 @@ function Work() {
         </div>
         
         <div className="abba">
-          <p>.-------- .</p>
+       
         </div>
         <div className="image_box">
           <img src={news} className="work_image" alt="portfolio" />
