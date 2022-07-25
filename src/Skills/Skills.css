@@ -53,3 +53,21 @@
     font-weight: bold;
     color: rgb(214, 220, 220);
 }
+
+
+@media only screen and (max-width: 600px) {
+    
+
+    .container-home_page{
+        display: flex;
+        flex-direction: column;
+        top: 150px;
+        position: fixed;
+        left: 100px;
+        font-family: 'Ibarra Real Nova', serif;
+        color: rgb(20, 23, 23);
+		
+    
+   
+  }
+}

@@ -28,7 +28,7 @@ function Work() {
           <div className="content">
             <p className="title">MERN Image uploading</p>
             <h4 className="description">React js,Node js,Mongodb</h4>
-            <a href="https://rahul-more.herokuapp.com/">
+            <a href="https://github.com/Rahulmore1804/image-handling-with-react-mongo-and-node">
               <button className="btn">View</button>
             </a>
           </div>

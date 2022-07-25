@@ -122,3 +122,28 @@ transition: 500ms;
 		transform: rotateY(360deg) rotateZ(-90deg);
 	}
 }
+
+
+@media only screen and (max-width: 600px) {
+    
+   
+
+    .container-home_page1{
+        display: flex;
+        flex-direction: column;
+        top: 150px;
+        position: fixed;
+        left: 130px;
+        font-family: 'Ibarra Real Nova', serif;
+        color: rgb(20, 23, 23);
+		font-size: 15px;
+		color: antiquewhite;
+    }
+	.about{
+		width:55vw ;
+		background-color: rgba(25, 23, 23, 0.1);
+		
+		padding: 10px;
+		border-radius: 7px;
+	}
+  }
