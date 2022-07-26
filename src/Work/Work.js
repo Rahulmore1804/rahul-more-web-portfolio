@@ -4,6 +4,7 @@ import game from "./game.png";
 import news from "./newslatter.png";
 import web from "./web.png";
 import ima from "./image.png";
+import todo from "./todo.png";
 
 function Work() {
   return (
@@ -41,6 +42,16 @@ function Work() {
             <p className="title">2 Player Game</p>
             <h4 className="description">JavaScript,Css,HTML</h4>
             <a href="https://inkoop-game-task.herokuapp.com/">
+              <button className="btn">View</button>
+            </a>
+          </div>
+        </div>
+        <div className="image_box">
+          <img src={todo} className="work_image" alt="portfolio" />
+          <div className="content">
+            <p className="title">MERN Stack TODO</p>
+            <h4 className="description">REACT, Node , Mongodb</h4>
+            <a href="https://github.com/Rahulmore1804/MERN-stack-TODO">
               <button className="btn">View</button>
             </a>
           </div>
