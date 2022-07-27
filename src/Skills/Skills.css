@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
-.container-home_page{
+.container-home_pageee{
     display: flex;
     flex-direction: row;
     top: 150px;
@@ -58,16 +58,41 @@
 @media only screen and (max-width: 600px) {
     
 
-    .container-home_page{
+    .container-home_pageee{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
-        top: 150px;
+        top: 13px;
         position: fixed;
-        left: 100px;
+        left: 149px;
         font-family: 'Ibarra Real Nova', serif;
-        color: rgb(20, 23, 23);
-		
-    
-   
-  }
+    }
+    .skilltext {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(214, 220, 220);
+    }
+
+    .textt {
+        width: 40vw;
+        margin-right: 20px;
+        color: rgb(14, 16, 19);
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 18px;
+    }
+    .vl{
+        display: none;
+    }
+
+    .opi{
+     
+            display: flex;  
+            flex-wrap: wrap;
+          
+    }
+
+    .logos1 {
+        margin-top: 26px;
+        width: 83px;
+    }
 }

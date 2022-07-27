@@ -93,3 +93,47 @@ transition: 500ms;
 
 }
 
+@media only screen and (max-width: 600px) {
+    .contact_form {
+        display: flex;
+        flex-direction: column;
+        top: 74px;
+        position: fixed;
+        left: 114px;
+        font-family: 'Ibarra Real Nova', serif;
+        color: rgb(1, 1, 1);
+        width: 64vw;
+    }
+
+    .b3 {
+        font-size: 23px;
+    }
+    
+    .b2 {
+        font-size: 20px;
+    } 
+    .A12 {
+        background-color: rgba(25, 23, 23, 0.2);
+        width: 62vw;
+        padding: 11px;
+        border-radius: 7px;
+    }
+    .contact_form input {
+        background-color: transparent;
+        color: antiquewhite;
+        height: 39px;
+        width: 60vw;
+        border-width: 0 0 2px;
+        margin-bottom: 10px;
+
+    }
+    .contact_form textarea {
+        background-color: transparent;
+        color: antiquewhite;
+        height: 60px;
+        width: 60vw;
+        border-width: 0 0 2px;
+        margin-bottom: 10px;
+    }
+}
+

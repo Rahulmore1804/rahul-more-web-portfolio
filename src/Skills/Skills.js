@@ -10,7 +10,7 @@ import mysql from "./mysql.png"
 import "./Skills.css"
 
 function Skills(){
-    return(<div className="container-home_page">
+    return(<div className="container-home_pageee">
     <div className="textt"><h1>Skills</h1><div className="SS"><p>I have knowledge of Full stack technologies. like <span className="skilltext"> React js, Node js, Python, JavaScript, HTML/CSS, mongoDB and MySQL</span></p>
     
     <p>You can see my work, profile and Code on <a className="A1" href="https://www.linkedin.com/in/rahulmore1804/">Linkdin</a> and <a className="A1"  href="https://github.com/Rahulmore1804">GitHub</a>. </p></div></div>
@@ -18,7 +18,7 @@ function Skills(){
 
 <div className="vl"></div>
        
-<div>
+<div className="opi">
         <img className="logos1" src={node} alt="d"/>
         <img className="logos1" src={react1} alt="d"/>
         <img className="logos1" src={python} alt="d"/>
